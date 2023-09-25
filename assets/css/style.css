@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+.bg-img {
+    background-image: url(../images/Hero\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Roots */
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-25 {
+    font-size: var(--fs-25) !important;
+}
+
+.fs-39 {
+    font-size: var(--fs-39) !important;
+}
+
+.fs-10 {
+    font-size: var(--fs-10) !important;
+}
+
+.fs-12 {
+    font-size: var(--fs-12) !important;
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fs-30 {
+    font-size: var(--fs-30);
+}
+
+.fs-64 {
+    font-size: var(--fs-64);
+}
+
+.fs-61 {
+    font-size: var(--fs-61);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.pr-80 {
+    padding-right: 80px;
+}
+
+.fw-400 {
+    font-weight: var(--fw-400) !important;
+}
+
+.fw-500 {
+    font-weight: var(--fw-500) !important;
+}
+
+.fw-600 {
+    font-weight: var(--fw-600) !important;
+}
+
+.fw-700 {
+    font-weight: var(--fw-700) !important;
+}
+
+.fw-800 {
+    font-weight: var(--fw-800) !important;
+}
+
+.ff-p {
+    font-family: var(--ff-p) !important;
+}
+
+.ff-w {
+    font-family: var(--ff-w) !important;
+}
+
+/* Color */
+.text-orange {
+    color: var(--orange) !important;
+}
+
+.text-blak {
+    color: var(--black) !important;
+}
+
+.text-grey {
+    color: var(--grey) !important;
+}
+
+.text-card {
+    color: var(--card) !important;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.mt {
+    max-width: 800px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-300 {
+    padding-bottom: 300px;
+}
+
+.pt-300 {
+    padding-top: 300px;
+}
+
+.su {
+    padding: 13px 37px;
+    border-radius: 30.5px;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    border: none;
+}
+
+.bc-img {
+    background-image: url(../images/Union.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1 {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 66px 0px rgba(0, 0, 0, 0.04);
+    transition: all 200ms linear;
+    min-height: 310px !important;
+}
+.mt-55{
+    margin-top: 55px;
+}
+
+.card1:hover {
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%),
+        #FFF !important;
+    transform: translateY(-50px) !important;
+    color: white;
+}
+.massage{
+    resize: none;
+    width: 100% !important;
+    max-width: 225px !important;
+    border: none;
+    outline: none;
+}
+.cur:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.border-none{
+    border: none;
+    outline: none;
+}
+.btn-sign{
+
+}
+
+.prev-btn{
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    cursor: pointer;
+}
+.next-btn{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.card1:hover .text-blak{
+color: white !important;
+}
+
+.fill{
+    fill: none !important;
+}
+
+.card1:hover .ellipse1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.card1:hover .ellipse2{
+        position: absolute;
+            right: 0;
+            bottom: 0;
+}
+
+.ellipse1{
+transition: all 300ms linear;
+    position: absolute;
+    bottom: -30%;
+    right: -30%;
+}
+.ellipse2{
+    transition: all 500ms linear;
+position: absolute;
+bottom: -30%;
+right: -30%;
+}
+
+
+.all {
+    max-width: 257px;
+}
+
+.card-2 {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+.btn-sign {
+    border-radius: 30.5px;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    padding: 12px 37px;
+    border: none;
+    text-align: center;
+}
+
+.card-or {
+    border-radius: 10px 10px 0px 0px;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
+}
+
+.slide-card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 66px 0px rgba(0, 0, 0, 0.04);
+}
+
+.card-wh {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card2 {
+    border-radius: 10px;
+    border: 1px solid #E8E8E8;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%), #FFF;
+}
+
+.btn-b {
+border-radius: 30.5px;
+    background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
+    padding: 12px 37px;
+    border: none;
+}    
+
+.vector {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.lin {
+    width: 225px;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+
+.lin2 {
+    max-width: 470px;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+
+.bg-footer {
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pr {
+    max-width: 430px;
+}
+
+.bg-head {
+    background-image: url(../images/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ll:hover {
+    color: #F14F09 !important;
+    transition: all 300ms linear !important;
+}
+
+/* Navbar */
+@media (max-width:992px) {
+
+    label[for="menuIcon"] {
+        width: 30px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+    }
+
+    label[for="menuIcon"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: grey;
+        border-radius: 2px;
+        align-items: center;
+    }
+
+
+    .nav-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: #FFF8F5;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: all 300ms linear;
+        z-index: 1;
+    }
+
+    .left-0 {
+        left: 0;
+    }
+}
+
+/* Navbar */

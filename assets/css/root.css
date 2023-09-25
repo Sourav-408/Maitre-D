@@ -1,0 +1,36 @@
+:root {
+
+    --white: white;
+    --black: #000;
+    --grey: #7B7B7B;
+    --orange:#F35D0F;
+    --card: #EFEFEF;
+
+
+
+    --fs-12: 12px;
+    --fs-10: 10px;
+    --fs-39: 39px;
+    --fs-22: 22px;
+    --fs-18: 18px;
+    --fs-70: 70px;
+    --fs-20: 20px;
+    --fs-64: 64px;
+    --fs-61: 61px;
+    --fs-25: 25px;
+    --fs-50: 50px;
+    --fs-30: 30px;
+    --fs-16: 16px;
+    --fs-48: 48px;
+
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-00: 800;
+
+
+    --ff-p: 'Poppins', sans-serif;
+    --ff-w: 'Work Sans', sans-serif;
+}
